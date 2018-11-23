@@ -1,0 +1,20 @@
+.user-form{
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+button{
+    font: inherit;
+    border: 1px solid purple;
+    color: green;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active{
+    background-color: purple;
+    color: white;
+}

@@ -1,0 +1,14 @@
+extends layouts/main-layout.pug
+
+block styles
+    link(rel="stylesheet" href="/css/form.css")
+    link(rel="stylesheet" href="/css/user.css")
+    
+block content
+    h1 Weclome to User List
+    p There is a list of Users
+    form.user-form(action="/", method="POST")
+            .form-control
+                label(for="name") Name
+                input(type="text", name="name")#name
+            button.btn(type="submit") Add User
